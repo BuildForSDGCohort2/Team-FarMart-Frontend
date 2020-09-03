@@ -1,11 +1,12 @@
 import React from 'react';
+import ShowSignUpForm from './forms/ShowSignUpForm';
 
 
 
 const SignUp = () => {
     return (
         <div className=''>
-            <h3>SignUp UI</h3>
+            <ShowSignUpForm/>
         </div>
     )
 }
