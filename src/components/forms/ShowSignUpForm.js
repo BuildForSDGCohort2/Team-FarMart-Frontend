@@ -39,7 +39,7 @@ const ShowSignUpForm =()=>{
 		<div className="form-group">
             <button type="submit" className="btn btn-primary btn-block btn-lg">Sign Up</button>
         </div>
-		<p className="small text-center">By clicking the Sign Up button, you agree to our <br/><Link to=''>Terms &amp; Conditions</Link>, and <a href="#">Privacy Policy</a>.</p>
+		<p className="small text-center">By clicking the Sign Up button, you agree to our <br/><Link to=''>Terms &amp; Conditions</Link>, and <Link to=''>Privacy Policy</Link>.</p>
     </form>
 	<div className="text-center">Already have an account? <Link to='/login'>Login here</Link>.</div>
 </div>
